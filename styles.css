@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+}
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#logo {
+    font-size: 24px;
+}
+#logo1 {
+    font-size: 20px;
+}
+.hero {
+    margin: 0px;
+    background-image: url('https://images.sw.cdn.siemens.com/siemens-disw-assets/public/7x85Fa0whDvfMlnsHmEFVM/en-US/careers-is677807458-gradient-hero-1920x1080.jpg?auto=format,compress&w=1920&q=60');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-heading {
+    color: white;
+    font-size: 60px;
+    margin-left: 20px;
+}
+.special-heading {
+    font-size: 80px;
+}
+.filter-popup {
+    margin-top: 50px;
+    padding: 30px;
+}
+.heading {
+    font-size: 50px;
+    font-weight: 800;
+}
+.search-bar {
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.filter-button {
+    width: 100px;
+    background-color: cadetblue;
+    padding: 7px;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+.role-heading1 {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.search {
+    height: 35px;
+}
+.role-heading {
+    font-size: 24px;
+}
+.label-heading {
+    font-size: 17px;
+}
+.checkbox {
+    height: 15px;
+    width: 15px;
+}
+.job-headings {
+    font-size: 28px;
+}
+.job-card {
+    border-radius: 15px;
+}
+.card-headings {
+    font-size: 16px;
+    font-weight: 700;
+}
+.span-headings {
+    font-size: 14px;
+    font-weight: 500;
+}
+.button {
+    width: 100px;
+    background-color: cadetblue;
+    padding: 7px;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+.footer-section {
+    background-color: cadetblue;
+}
+
+
+@media screen and (max-width: 600px) {
+    .main-heading {
+        color: white;
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    .special-heading {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .main-heading {
+        color: white;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .special-heading {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .heading {
+        font-size: 30px;
+        font-weight: 800;
+    }
+}
